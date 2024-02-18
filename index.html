@@ -15,8 +15,20 @@
     <img id="thales" src="teorema.jpg" style="display: none;">
     <br>
     <br>
+    <br>
     <img id="thales1" src="teorema1.jpg" style="display: none;">
     <img id="exercitii(tt)" src="exercitii(tt).jpg" style="display:none;">
+    <img id="ecuatii" src="ecuatii.jpg" style="display:none;">
+    <br>
+    <br>
+    <br>
+    <img id="ecuatii1" src="ecuatii1.jpg" style="display:none;">
+    <img id="ecuatii(ech)" src="ecuatii(ech).jpg" style="display:none";>
+    <img id="exercitii(ecuatii)" src="exercitii(ecuatii).jpg" style="display:none;">
+    <br>
+    <br>
+    <br>
+    <img id="exercitii(ecuatii)1" src="exercitii(ecuatii)1.jpg" style="display:none">
        <script>
         document.getElementById('text').style.display="block"
         let answer = prompt("Scrie numărul din stânga optiunii pe care vrei să o alegi.\n\n1.Lectii\n2.Mesaje pentru cineva din clasă")
@@ -67,6 +79,17 @@
                     thales1.style.display="block"
                 } else if (answer3==="2"){
                     document.getElementById("exercitii(tt)").style.display="block"
+                }
+            } else if (answer2==="1"){
+                let answer4 = prompt("1.Ecuatii\n2.Ecuatii echivalente\n3.Exercitii(ecuatii)")
+                if (answer4==="1"){
+                    document.getElementById('ecuatii').style.display="block"
+                    document.getElementById('ecuatii1').style.display="block"
+                } else if (answer4==="2"){
+                    document.getElementById('ecuatii(ech)').style.display="block"
+                } else if (answer4==="3"){
+                    document.getElementById('exercitii(ecuatii)').style.display="block"
+                    document.getElementById('exercitii(ecuatii)1').style.display="block"
                 }
             }
         }
