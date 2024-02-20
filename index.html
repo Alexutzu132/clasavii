@@ -11,7 +11,7 @@
         </style>
 </head>
 <body>
-    <h1 id="text" style="display: none">Dacă nu apare mesaju acela,dă-i refresh.</h1>
+    <h1 id="text" style="display: none">Da-i refresh dacă nu apare mesajul ala.</h1>
     <img id="thales" src="teorema.jpg" style="display: none;" width="920" height="1300">
     <br>
     <br>
@@ -29,6 +29,13 @@
     <br>
     <br>
     <img id="exercitii(ecuatii)1" src="exercitii(ecuatii)1.jpg" style="display:none" width="920" height="1300">
+    <img id="substantivul" src="Substantivul.jpg" style="display:none" width="920" height="750">
+    <img id="cazurile" src="cazurile.jpg" style="display:none" width="920" height="1300">
+    <br>
+    <br>
+    <br>
+    <img id="cazurile2" src="cazurile2.jpg" style="display:none" width="920" height="750">
+    <img id="locutiuni" src="locutiuni(subs).jpg" style="display:none" width="920" height="750">
        <script>
         document.getElementById('text').style.display="block"
         let answer = prompt("Scrie numărul din stânga optiunii pe care vrei să o alegi.\n\n1.Lectii\n2.Mesaje pentru cineva din clasă")
@@ -69,7 +76,7 @@
                         confirm("The vinnie's boyfriend")
                 }
     } else if (answer==="1"){
-        let answer1 = prompt("Scrie numărul din stânga optiunii pe care vrei să o alegi.\n\n1.Matematică")
+        let answer1 = prompt("Scrie numărul din stânga optiunii pe care vrei să o alegi.\n\n1.Matematică\n2.Limba Română")
         if (answer1==="1"){
             let answer2 = prompt("1.Algebră\n2.Geometrie")
             if (answer2==="2"){
@@ -92,8 +99,18 @@
                     document.getElementById('exercitii(ecuatii)1').style.display="block"
                 }
             }
+        } else if (answer1==="2"){
+            let answer5 = prompt("1.Substantivul\n2.Cazurile Substantivului\n3.Locutiunile Substantivale")
+          if (answer5==="1"){
+            document.getElementById('substantivul').style.display="block"
+        } else if (answer5==="2"){
+            document.getElementById('cazurile').style.display="block"
+            document.getElementById('cazurile2').style.display="block"
+        } else if (answer5==="3"){
+            document.getElementById('locutiuni').style.display="block"
         }
     }
+}
 </script>
 </body>
 </html>
