@@ -26,10 +26,16 @@
                       confirm("Șefa Clasei 😎")
       } else if (raspuns==="5"){
                       confirm("Ceapa mătii")
-      }else if (raspuns==="11"){
+      } else if (raspuns==="11"){
                      let answer=prompt("Știți că vă iubim?? 💗💓💞💕❤❤")
                      if (answer==="Da"){
                         alert("Pupici 💓💋")
+     } else if (answer==="Daa"){
+        confirm("Pupici 💓💋")
+     } else if (answer==="da"){
+        confirm("Pupici 💓💋")
+     } else if (answer==="daa"){
+        confirm("Pupici 💓💋")
      }
      } else if (raspuns==="14"){
                         confirm("Minți")
