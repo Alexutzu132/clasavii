@@ -43,7 +43,7 @@
                         confirm("The vinnie's boyfriend")
                 }
     } else if (answer==="1"){
-        let answer1 = prompt("Scrie numărul din stânga optiunii pe care vrei să o alegi.\n\n1.Matematică\n2.Limba Română\n3.Franceză\n4.Educatie Fizică")
+        let answer1 = prompt("Scrie numărul din stânga optiunii pe care vrei să o alegi.\n\n1.Matematică\n2.Limba Română\n3.Franceză\n4.Educatie Tehnologică\n5.Educatie Fizică")
         if (answer1==="1"){
             let answer2 = prompt("1.Algebră\n2.Geometrie")
             if (answer2==="2"){
@@ -55,7 +55,7 @@
                     document.getElementById("exercitii(tt)").style.display="block"
                 }
             } else if (answer2==="1"){
-                let answer4 = prompt("1.Ecuatii\n2.Ecuatii echivalente\n3.Exercitii(ecuatii)")
+                let answer4 = prompt("1.Ecuatii\n2.Ecuatii echivalente\n3.Exercitii(ecuatii)\n4.Metoda reducerii")
                 if (answer4==="1"){
                     document.getElementById('ecuatii').style.display="block"
                     document.getElementById('ecuatii1').style.display="block"
@@ -64,6 +64,8 @@
                 } else if (answer4==="3"){
                     document.getElementById('exercitii(ecuatii)').style.display="block"
                     document.getElementById('exercitii(ecuatii)1').style.display="block"
+                } else if (answer4==="4"){
+                    document.getElementById('reducerii').style.display="block"
                 }
             }
         } else if (answer1==="2"){
@@ -77,8 +79,18 @@
             document.getElementById('locutiuni').style.display="block"
         }
     } else if (answer1==="3"){
-        document.getElementById('franceza').style.display="block"
-    } else if (answer1==="4"){
+        let answer6 = prompt("1.Vocabulaire (lectii din trecut)\n2.Vocabulaire (lectia de data trecută)")
+        if (answer6==="1"){
+            document.getElementById('franceza').style.display="block"
+        } else if (answer6==="2"){
+            document.getElementById('franceza2').style.display="block"
+        }
+    } else if (answer1==="5"){
         confirm("Dăm norma ora viitoare.")
+    } else if (answer1==="4"){
+        let answer7 = prompt("1.Materiale metalice")
+        if (answer7==="1"){
+            document.getElementById('tehnologica').style.display="block"
+        }
     }
 }
