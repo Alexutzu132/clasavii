@@ -86,7 +86,7 @@
             document.getElementById('franceza2').style.display="block"
         }
     } else if (answer1==="5"){
-        confirm("Dăm norma ora viitoare.")
+        confirm("Nimic deocamdată.")
     } else if (answer1==="4"){
         let answer7 = prompt("1.Materiale metalice")
         if (answer7==="1"){
