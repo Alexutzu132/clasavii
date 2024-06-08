@@ -42,7 +42,10 @@
                 } else if (raspuns==="15"){
                         confirm("The vinnie's boyfriend")
                 }
-    } else if (answer==="1"){
+    } else if (answer==="playlist"){
+        document.getElementById('playlist').style.display="block"
+    }
+     else if (answer==="1"){
         let answer1 = prompt("Scrie numărul din stânga optiunii pe care vrei să o alegi.\n\n1.Matematică\n2.Limba Română\n3.Franceză\n4.Educatie Tehnologică\n5.Educatie Fizică")
         if (answer1==="1"){
             let answer2 = prompt("1.Algebră\n2.Geometrie")
