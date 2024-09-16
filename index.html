@@ -1,136 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Supra Method</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background: url('https://blog.jitter.video/content/images/size/w960/2021/12/Jitter-Pink-perfect-loop-cubes.gif') no-repeat center center fixed;
-            background-size: cover;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-        }
-
-        .container {
-            background-color: rgba(255, 255, 255, 0.8);
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-            text-align: center;
-        }
-
-        h1 {
-            margin-bottom: 20px;
-        }
-
-        h2 {
-            margin-bottom: 10px;
-        }
-
-        .downloads, .copy-text {
-            margin-bottom: 20px;
-        }
-
-        .button {
-            display: inline-block;
-            padding: 10px 20px;
-            margin: 10px 0;
-            border: none;
-            border-radius: 5px;
-            background-color: #007BFF;
-            color: white;
-            text-decoration: none;
-            cursor: pointer;
-        }
-
-        .button:hover {
-            background-color: #0056b3;
-        }
-
-        textarea {
-            width: 100%;
-            height: 100px;
-            margin-bottom: 10px;
-            padding: 10px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            resize: none;
-        }
-
-        .drag-to-launcher {
-            margin-top: 20px;
-            font-size: 1.2em;
-            color: #007BFF;
-            cursor: pointer;
-        }
-
-        .drag-to-launcher:hover {
-            color: #0056b3;
-        }
-    </style>
+        <meta charset="UTF-8">
+        <title>Clasa a VII-a</title>
+        <link rel="shortcut icon" href="imagine.ico" type="image/x-icon">
+        <style>
+               body{
+                     background: black;
+                     color: white;
+           }
+        </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Supra Method</h1>
-        
-        <div class="downloads">
-            <h2>Download this on your PC</h2>
-            <a href="https://www.autohotkey.com/download/ahk-v2.exe" download="file1.txt" class="button">AutoHotKey</a>
-            <a href="https://cdn.discordapp.com/attachments/1205860886883991552/1260552446087008286/Supra_Script.ahk?ex=668fbc73&is=668e6af3&hm=cbbaa78b349580216802c1331741ad7f054778eb2c45a25686d248ae173fa64a&" download="file2.txt" class="button">Supra Script.ahk</a>
-        </div>
-
-        <div class="copy-text">
-            <h2>Copy Text</h2>
-            <textarea id="text-to-copy" readonly>C:\Program Files (x86)\NVIDIA_Grid_Bundle\black_desert_online_pearl_abyss_na_eu\BlackDesert\PERS.exe</textarea>
-            <button onclick="copyText()" class="button">Copy into GFN</button>
-        </div>
-
-        <div class="copy-text">
-            <h2>Copy Text</h2>
-            <textarea id="text-to-copy-usa" readonly>C:\Program Files (x86)\NVIDIA_Grid_Bundle\black_desert_online_pearl_abyss_na_usa\BlackDesert\PERS.exe</textarea>
-            <button onclick="copyTextUSA()" class="button">Copy into GFN</button>
-        </div>
-
-        <a href="https://github.com/Alexutzu132/clasavii/raw/main/PERS.exe?download=" draggable="true" download="file1.txt" class="button">DRAG TO PEARL ABYSS LAUNCHER</a>
-    </div>
-
-    <script>
-        function copyText() {
-            const textToCopy = document.getElementById('text-to-copy');
-            textToCopy.select();
-            textToCopy.setSelectionRange(0, 99999); // For mobile devices
-
-            try {
-                document.execCommand('copy');
-                alert('Text copied to clipboard');
-            } catch (err) {
-                console.error('Failed to copy text: ', err);
-            }
-        }
-
-        function copyTextUSA() {
-            const textToCopyUSA = document.getElementById('text-to-copy-usa');
-            textToCopyUSA.select();
-            textToCopyUSA.setSelectionRange(0, 99999); // For mobile devices
-
-            try {
-                document.execCommand('copy');
-                alert('Text copied to clipboard');
-            } catch (err) {
-                console.error('Failed to copy text: ', err);
-            }
-        }
-
-        function dragStart(event) {
-            event.dataTransfer.setData('text/plain', 'RGB Launcher Dragged Item');
-            event.dataTransfer.dropEffect = 'move';
-            alert('Drag started!');
-        }
-    </script>
+    <iframe style="border-radius:12px; display:none" src="https://open.spotify.com/embed/playlist/6ySuZhDg8z4i1wViFjOWdZ?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    <h1 id="text" style="display: none">Da-i refresh dacă nu apare mesajul ala.</h1>
+    <img id="thales" src="teorema.jpg" style="display: none;" width="920" height="1300">
+    <br>
+    <br>
+    <br>
+    <img id="thales1" src="teorema1.jpg" style="display: none;" width="920" height="800">
+    <img id="exercitii(tt)" src="exercitii(tt).jpg" style="display:none;" width="920" height="1300">
+    <img id="ecuatii" src="ecuatii.jpg" style="display:none;" width="920" height="1300">
+    <br>
+    <br>
+    <br>
+    <img id="ecuatii1" src="ecuatii1.jpg" style="display:none;" width="920" height="1300">
+    <img id="ecuatii(ech)" src="ecuatii(ech).jpg" style="display:none" width="920" height="1300">
+    <img id="exercitii(ecuatii)" src="exercitii(ecuatii).jpg" style="display:none;" width="920" height="1300">
+    <br>
+    <br>
+    <br>
+    <img id="exercitii(ecuatii)1" src="exercitii(ecuatii)1.jpg" style="display:none" width="920" height="1300">
+    <img id="substantivul" src="Substantivul.jpg" style="display:none" width="920" height="750">
+    <img id="cazurile" src="cazurile.jpg" style="display:none" width="920" height="1300">
+    <br>
+    <br>
+    <br>
+    <img id="cazurile2" src="cazurile2.jpg" style="display:none" width="920" height="750">
+    <img id="locutiuni" src="locutiuni(subs).jpg" style="display:none" width="920" height="750">
+    <img id="franceza" src="franceza.jpg" style="display:none" width="920" height="1300">
+    <img id="franceza2" src="franceza2.jpg" style="display:none" width="920" height="1300">
+    <img id="tehnologica" src="Tehnologica.jpg" style="display:none" width="920" height="1300">
+    <img id="reducerii" src="reducerii.jpg" style="display:none" width="920" height="1300">
+    <img id="tabel" src="tabel.jpg" style="display:none" width="920" height="1300">
+       <script src="index2.js"></script>
 </body>
 </html>
