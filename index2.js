@@ -17,7 +17,7 @@
       } else if (raspuns==="12"){
                       confirm("30.06")
       } else if (raspuns==="1"){
-                     confirm("My gf ❤❤")
+                     confirm("My gf ❤❤❤")
       } else if (raspuns==="4"){
                       confirm("Trage tare la sală,nu ca Pascanu")
       } else if (raspuns==="13"){
