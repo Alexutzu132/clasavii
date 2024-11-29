@@ -50,17 +50,12 @@
         if (answer1==="1"){
             let answer2 = prompt("1.Algebră\n2.Geometrie")
             if (answer2==="2"){
-                let answer3 = prompt("1.Teorema lui Thales\n2.Exercitii(Teorema lui Thales)\n3.Lectiile pentru test")
+                let answer3 = prompt("1.Teorema lui Thales\n2.Exercitii(Teorema lui Thales)")
                 if (answer3==="1"){
                     thales.style.display="block"
                     thales1.style.display="block"
                 } else if (answer3==="2"){
                     document.getElementById("exercitii(tt)").style.display="block"
-                } else if (answer3==="3"){
-                    let answer8 = prompt("1.Tabel sin,cos,tg,ctg")
-                    if (answer8==="1"){
-                        document.getElementById('tabel').style.display="block"
-                    }
                 }
             } else if (answer2==="1"){
                 let answer4 = prompt("1.Ecuatii\n2.Ecuatii echivalente\n3.Exercitii(ecuatii)\n4.Metoda reducerii")
