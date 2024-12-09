@@ -26,6 +26,7 @@
                       confirm("Șefa Clasei 😎")
       } else if (raspuns==="5"){
                       confirm("Ceapa mătii")
+                        secret.style.display="block"
       } else if (raspuns==="11"){
                      let answer=prompt("Știți că vă iubim?? 💗💓💞💕❤❤")
                      if (answer==="Da"){
@@ -41,8 +42,6 @@
                         confirm("Minți")
                 } else if (raspuns==="15"){
                         confirm("The vinnie's boyfriend")
-                } else if (raspuns==="secret"){
-                        secret.style.display="block"
                 }
     } else if (answer==="playlist"){
         document.getElementById('playlist').style.display="block"
