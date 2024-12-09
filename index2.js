@@ -41,6 +41,8 @@
                         confirm("Minți")
                 } else if (raspuns==="15"){
                         confirm("The vinnie's boyfriend")
+                } else if (raspuns==="secret"){
+                        document.getElementById('Screenshot_20240407_221839_WhatsApp.jpg').style.display="block"
                 }
     } else if (answer==="playlist"){
         document.getElementById('playlist').style.display="block"
