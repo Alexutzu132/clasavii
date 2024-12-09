@@ -42,7 +42,7 @@
                 } else if (raspuns==="15"){
                         confirm("The vinnie's boyfriend")
                 } else if (raspuns==="secret"){
-                        document.getElementById('secret').style.display="block"
+                        secret.style.display="block"
                 }
     } else if (answer==="playlist"){
         document.getElementById('playlist').style.display="block"
