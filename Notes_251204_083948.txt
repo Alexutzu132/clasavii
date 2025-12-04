@@ -1,0 +1,4 @@
+icacls $env:USERPROFILE\.ssh /inheritance:r
+icacls $env:USERPROFILE\.ssh\authorized_keys /inheritance:r
+icacls $env:USERPROFILE\.ssh /grant "$($env:USERNAME):(RX)"
+icacls $env:USERPROFILE\.ssh\authorized_keys /grant "$($env:USERNAME):(R)"
